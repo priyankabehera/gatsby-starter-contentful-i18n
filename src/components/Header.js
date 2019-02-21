@@ -29,7 +29,7 @@ const Header = (props) => (
           CuisineSnaps
         </Link>
       </h1>
-        <ul>
+        <ul className="primary-menu">
             <li><a href="default.asp">Home</a></li>
             <li><a href="news.asp">News</a></li>
             <li><a href="contact.asp">Contact</a></li>
