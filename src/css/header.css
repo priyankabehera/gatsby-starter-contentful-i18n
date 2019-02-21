@@ -6,4 +6,9 @@
 .primary-menu{
     width: 60%;
     float: left;
+    list-style-type: none;
+}
+
+.primary-menu li{
+    float: left;
 }
