@@ -61,7 +61,7 @@ class TemplateWrapper extends Component {
           >
             <Link style={{ textDecoration: `none` }} to="/">
               <h3 style={{ color: `tomato`, marginBottom: rhythm(1.5) }}>
-                Example of using Contentful as a data source for a Gatsby site
+                Example of using Contentful as a data source for a Gatsby site dfdfdf
               </h3>
             </Link>
             {this.children}
