@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import SelectLanguage from './SelectLanguage';
+import "../css/header.css";
 
 const Header = (props) => (
   <div
@@ -18,17 +18,19 @@ const Header = (props) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          CuisineSnaps
-        </Link>
-      </h1>
+      <div className="menu-container">
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: 'white',
+              textDecoration: 'none',
+            }}
+          >
+            CuisineSnaps
+          </Link>
+        </h1>
+      </div>
         <ul className="primary-menu">
             <li><a href="default.asp">Home</a></li>
             <li><a href="news.asp">News</a></li>
