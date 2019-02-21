@@ -7,8 +7,10 @@
     width: 60%;
     float: left;
     list-style-type: none;
+    margin-left: 0px;
 }
 
 .primary-menu li{
     float: left;
+    padding: 10px;
 }
