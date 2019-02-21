@@ -11,6 +11,7 @@ const Header = (props) => (
     }}
   >
     <div
+        className="container"
       style={{
         margin: '0 auto',
         maxWidth: 960,
@@ -25,7 +26,7 @@ const Header = (props) => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          CuisineSnaps
         </Link>
       </h1>
       <SelectLanguage langs={props.langs} />
