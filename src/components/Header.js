@@ -4,6 +4,7 @@ import SelectLanguage from './SelectLanguage';
 
 const Header = (props) => (
   <div
+      className={maindiv}
     style={{
       background: 'rebeccapurple',
       marginBottom: '1.45rem',
