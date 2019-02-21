@@ -33,10 +33,10 @@ const Header = (props) => (
         </h1>
       </div>
         <ul className="primary-menu">
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="news.asp">News</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-            <li><a href="about.asp">About</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="/ahmedabad">Ahmedabad</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/about">About</a></li>
         </ul>
     </div>
   </div>
